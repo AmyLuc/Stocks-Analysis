@@ -2,7 +2,7 @@
 
 This project was meant to quickly collect data on yearly stock returns, then  clearly display the data for ease of interpretation. The code could quickly and easily be modified to interpret other stock-related data sets, so long as the data is organized by ticker name.
 
-Please be sure to enable macros upon request. It may ask you to update the spreadsheet. My instincts say you should, but it seems to run fine whether or not the update is agreed to.
+Please be sure to enable macros upon request. You do not need to update the spread sheet if asked.
 
 ---
 
@@ -21,6 +21,8 @@ Run and ENPH were the only stocks that had a positive return in both 2017 and 20
 ## Original VS Refactored Code ##
 
 The original code with the nested loops was ultimately much faster than the refactored code that only loops through the data once. I don't know why this is, but it may be reversed should the data pool be larger. It may be that the refactored code is only slower with relatively smaller selections of data. 
+
+In general, nested loops take more time than a For Loop that only iterates through the data  because the number of insitances that the computer iterates throught the code is multiplied by however many times a nested loop loops. 
 
 ---
 
