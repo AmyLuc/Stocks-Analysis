@@ -49,7 +49,7 @@ Here is how long the refactored code ran for:
 
 <img width="191" alt="Refactored-print-2017-timestamp" src="https://user-images.githubusercontent.com/91698325/144931565-8cf94985-9cf2-4a13-80c1-6ce21f45c382.PNG">
 
---
+---
 
 **Refactored code 2018**
 
