@@ -22,7 +22,7 @@ Run and ENPH were the only stocks that had a positive return in both 2017 and 20
 
 The original code with the nested loops was ultimately much faster than the refactored code that only loops through the data once. I don't know why this is, but it may be reversed should the data pool be larger. It may be that the refactored code is only slower with relatively smaller selections of data. 
 
-In general, nested loops take more time than a For Loop that only iterates through the data  because the number of insitances that the computer iterates throught the code is multiplied by however many times a nested loop loops. 
+In general, nested loops take more time than a For Loop that only iterates through the data  because the number of insitances that the computer iterates throught the code is multiplied by however many times a nested loop loops. While the refactored code loops through the data once for each row, the original code loops through once for each row multiplied by 11 due to the nested For loop.
 
 ---
 
