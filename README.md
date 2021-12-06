@@ -2,6 +2,8 @@
 
 This project was meant to quickly collect data on yearly stock returns, then  clearly display the data for ease of interpretation. The code could quickly and easily be modified to interpret other stock-related data sets, so long as the data is organized by ticker name.
 
+Please be sure to enable macros upon request. 
+
 ---
 
 ## Summary of Analysis ##
