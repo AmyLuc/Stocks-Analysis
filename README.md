@@ -63,5 +63,12 @@ Here is how long the refactored code ran for:
 ---
 The refactored code would not output accurate data  if the data is not organized by stock type. This is due to how I designed the TickerIndex variable to increase. Both the original and the refactored code would be unable to find the return if the data was not grouped by ticker name, but the original would still be able to find the total volume. 
 
+<img width="559" alt="Original-All-Stocks-Analysis-2017" src="https://user-images.githubusercontent.com/91698325/144932258-18875ab9-939f-42f2-b662-8550fd59698d.PNG">
 
+<img width="559" alt="Refactored-All-Stocks-Analysis-2017" src="https://user-images.githubusercontent.com/91698325/144932284-72a41e43-1cc3-4c84-b3ab-cf507a8fd72f.PNG">
 
+<img width="250" alt="Original-2018-timestamp-msgbox" src="https://user-images.githubusercontent.com/91698325/144932322-ec8316cb-ef6c-47ea-a4af-699440812746.PNG">
+
+<img width="559" alt="Refactored-All-Stocks-Analysis-2018" src="https://user-images.githubusercontent.com/91698325/144932339-06bc9b83-a4d0-4d1c-a791-3b485ca3243e.PNG">
+
+Evidently, both codes produce the same output.
